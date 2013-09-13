@@ -1,0 +1,93 @@
+#tope
+{
+	top:20px;
+}
+#bord
+{
+  border-radius: 10px
+}
+
+body
+{
+	background-image:url('../img/gray2.jpg');
+	background-size: 100%;
+	color:white;
+}
+
+#white{
+	color: #2CBDD8;
+}
+.whte{
+	color: white;
+}
+
+
+.show 
+{
+	opacity:0.7;
+}
+
+.centred
+{
+	text-align: center;
+}
+/*XS*/
+@media (max-width: 767px) {
+.bonti
+{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 100px;
+}
+.sm-centered
+{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+	position:relative;
+	top:120px;
+}
+}
+
+/*SM*/
+@media (min-width: 768px) and (max-width: 991px) {
+.sm-centered
+{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+}
+.conc{
+		position:relative;
+		left:10px;
+		top:150px;
+	}
+.picture
+{
+	position:relative;
+	top:70px;
+}
+}
+
+/*MD*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.conc{
+		position:relative;
+		left:10px;
+		top:200px;
+	}
+}
+
+/*LG*/
+@media (min-width: 1200px)  {
+.conc
+{
+		position:relative;
+		left:10px;
+		top:250px;
+
+}
+}
